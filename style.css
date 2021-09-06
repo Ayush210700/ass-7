@@ -1,0 +1,78 @@
+body{
+    height:100vh;
+    font-family:helvetica;
+    background-image: url("https://miro.medium.com/max/4800/1*GsImz-edoeuqCMfKxDus0w.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: space space-evenly;
+    align-items: center;
+}
+p{
+    margin: 5px;
+    color:blue;
+}
+#od{
+    background:rgba(256,256,256,.5);
+    width:450px;
+    text-align:center;
+    border-radius:30px;
+}
+#btn{
+    width: 300px;
+    margin-top: 12px;
+}
+#id{
+    width:400px;
+    height: 200px;
+    margin-top: 20px;
+    text-align: center;
+    background:rgba(256,256,256,.6);
+    border-radius:20px;
+}
+div{
+    margin:10px auto;
+}
+input{
+    border:none;
+    margin:10px auto;
+    width:200px;
+    height:30px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    background-color:aliceblue;
+    border-radius:10px;
+}
+button{
+    color:blue;
+    border:none;
+    margin:auto;
+    width:215px;
+    height:40px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    border-radius:10px;
+}
+button:hover{
+    background-color:rgb(134, 173, 199);
+}
+#location{
+    font-size:20px;
+}
+#time{
+    font-size:20px;
+}
+#temp{
+    font-size:30px;
+}
+#minmax{
+    font-size:15px;
+}
+#weather{
+    font-size:20px;
+}
+#speed{
+    font-size:20px;
+}
